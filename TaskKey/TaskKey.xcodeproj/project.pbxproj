@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6A45022E3973A3E5DC674FED /* Pods_TaskKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6098CCD791AD714DBBF980C9 /* Pods_TaskKey.framework */; };
 		739A88752469D3C800FEBDEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88742469D3C800FEBDEA /* AppDelegate.swift */; };
 		739A88772469D3C800FEBDEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88762469D3C800FEBDEA /* SceneDelegate.swift */; };
-		739A88792469D3C800FEBDEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88782469D3C800FEBDEA /* ViewController.swift */; };
 		739A887C2469D3C800FEBDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739A887A2469D3C800FEBDEA /* Main.storyboard */; };
 		739A887E2469D3CE00FEBDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739A887D2469D3CE00FEBDEA /* Assets.xcassets */; };
 		739A88812469D3CE00FEBDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739A887F2469D3CE00FEBDEA /* LaunchScreen.storyboard */; };
 		739A88892469D58700FEBDEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 739A88882469D58700FEBDEA /* GoogleService-Info.plist */; };
+		739A888F2469E45900FEBDEA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A888E2469E45900FEBDEA /* FirstViewController.swift */; };
+		739A88912469E5A300FEBDEA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88902469E5A300FEBDEA /* SignUpViewController.swift */; };
+		739A88932469E5AF00FEBDEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88922469E5AF00FEBDEA /* LoginViewController.swift */; };
+		739A88952469E5C500FEBDEA /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88942469E5C500FEBDEA /* ResetPasswordViewController.swift */; };
+		739A88982469E62600FEBDEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88972469E62600FEBDEA /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +27,16 @@
 		739A88712469D3C800FEBDEA /* TaskKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739A88742469D3C800FEBDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739A88762469D3C800FEBDEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		739A88782469D3C800FEBDEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		739A887B2469D3C800FEBDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		739A887D2469D3CE00FEBDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		739A88802469D3CE00FEBDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		739A88822469D3CE00FEBDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		739A88882469D58700FEBDEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		739A888E2469E45900FEBDEA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		739A88902469E5A300FEBDEA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		739A88922469E5AF00FEBDEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		739A88942469E5C500FEBDEA /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		739A88972469E62600FEBDEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E48859F5F8E997220FC6DFF5 /* Pods-TaskKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskKey.debug.xcconfig"; path = "Target Support Files/Pods-TaskKey/Pods-TaskKey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,10 +81,12 @@
 		739A88732469D3C800FEBDEA /* TaskKey */ = {
 			isa = PBXGroup;
 			children = (
+				739A888C2469E40C00FEBDEA /* Custom UI class */,
+				739A888B2469E3FC00FEBDEA /* Models */,
+				739A888A2469E3EB00FEBDEA /* view Controllers */,
 				739A88882469D58700FEBDEA /* GoogleService-Info.plist */,
 				739A88742469D3C800FEBDEA /* AppDelegate.swift */,
 				739A88762469D3C800FEBDEA /* SceneDelegate.swift */,
-				739A88782469D3C800FEBDEA /* ViewController.swift */,
 				739A887A2469D3C800FEBDEA /* Main.storyboard */,
 				739A887D2469D3CE00FEBDEA /* Assets.xcassets */,
 				739A887F2469D3CE00FEBDEA /* LaunchScreen.storyboard */,
@@ -85,13 +95,54 @@
 			path = TaskKey;
 			sourceTree = "<group>";
 		};
+		739A888A2469E3EB00FEBDEA /* view Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				739A88962469E61800FEBDEA /* home */,
+				739A888D2469E42800FEBDEA /* auth */,
+			);
+			name = "view Controllers";
+			sourceTree = "<group>";
+		};
+		739A888B2469E3FC00FEBDEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		739A888C2469E40C00FEBDEA /* Custom UI class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Custom UI class";
+			sourceTree = "<group>";
+		};
+		739A888D2469E42800FEBDEA /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				739A888E2469E45900FEBDEA /* FirstViewController.swift */,
+				739A88902469E5A300FEBDEA /* SignUpViewController.swift */,
+				739A88922469E5AF00FEBDEA /* LoginViewController.swift */,
+				739A88942469E5C500FEBDEA /* ResetPasswordViewController.swift */,
+			);
+			name = auth;
+			sourceTree = "<group>";
+		};
+		739A88962469E61800FEBDEA /* home */ = {
+			isa = PBXGroup;
+			children = (
+				739A88972469E62600FEBDEA /* HomeViewController.swift */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
 		FCC3B626BC010BB8850E3D66 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E48859F5F8E997220FC6DFF5 /* Pods-TaskKey.debug.xcconfig */,
 				107F42521AB4695288E4602C /* Pods-TaskKey.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,8 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739A88792469D3C800FEBDEA /* ViewController.swift in Sources */,
+				739A888F2469E45900FEBDEA /* FirstViewController.swift in Sources */,
 				739A88752469D3C800FEBDEA /* AppDelegate.swift in Sources */,
+				739A88912469E5A300FEBDEA /* SignUpViewController.swift in Sources */,
+				739A88952469E5C500FEBDEA /* ResetPasswordViewController.swift in Sources */,
+				739A88932469E5AF00FEBDEA /* LoginViewController.swift in Sources */,
+				739A88982469E62600FEBDEA /* HomeViewController.swift in Sources */,
 				739A88772469D3C800FEBDEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
