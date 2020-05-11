@@ -15,45 +15,81 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tortoise.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7On-vx-ris">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="546"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.and.outline" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7On-vx-ris">
+                                <rect key="frame" x="0.0" y="-0.5" width="414" height="547.5"/>
+                                <color key="tintColor" red="0.29535446580000002" green="0.78039215689999997" blue="0.69403623209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLw-be-eOD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLw-be-eOD" customClass="RoundButton" customModule="TaskKey" customModuleProvider="target">
                                 <rect key="frame" x="96" y="586" width="219" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.29535446580000002" green="0.78039215689999997" blue="0.69403623209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="w7L-yG-xI2"/>
+                                </constraints>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="jgf-PI-0zO" kind="presentation" id="dNW-qA-izn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0B7-Ce-0Of">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0B7-Ce-0Of" customClass="RoundButton" customModule="TaskKey" customModuleProvider="target">
                                 <rect key="frame" x="96" y="650" width="219" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.29535446580000002" green="0.78039215689999997" blue="0.69403623209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NnF-kb-JT4"/>
+                                </constraints>
                                 <state key="normal" title="Signup">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="xBO-jf-DVS" kind="presentation" id="dmB-Cc-hCQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Beu-s5-JAh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Beu-s5-JAh" customClass="RoundButton" customModule="TaskKey" customModuleProvider="target">
                                 <rect key="frame" x="96" y="718" width="219" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.29535446580000002" green="0.78039215689999997" blue="0.69403623209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BWv-dG-MhM"/>
+                                </constraints>
                                 <state key="normal" title="Forgot Password">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="usR-fS-cj9" kind="presentation" id="wpU-Dp-H7a"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0B7-Ce-0Of" firstAttribute="trailing" secondItem="Beu-s5-JAh" secondAttribute="trailing" id="0NG-Vh-mzz"/>
+                            <constraint firstItem="7On-vx-ris" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Qj-3p-eso"/>
+                            <constraint firstItem="7On-vx-ris" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-43.5" id="IUy-ac-rjJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xLw-be-eOD" secondAttribute="trailing" constant="99" id="JTg-b7-QCt"/>
+                            <constraint firstItem="xLw-be-eOD" firstAttribute="top" secondItem="7On-vx-ris" secondAttribute="bottom" constant="38.5" id="Lhm-EY-vQu"/>
+                            <constraint firstItem="xLw-be-eOD" firstAttribute="trailing" secondItem="0B7-Ce-0Of" secondAttribute="trailing" id="O8B-91-P51"/>
+                            <constraint firstItem="Beu-s5-JAh" firstAttribute="top" secondItem="0B7-Ce-0Of" secondAttribute="bottom" constant="38" id="R3H-6z-qcA"/>
+                            <constraint firstItem="xLw-be-eOD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="TVX-Kp-ey4"/>
+                            <constraint firstItem="0B7-Ce-0Of" firstAttribute="top" secondItem="xLw-be-eOD" secondAttribute="bottom" constant="34" id="Wzf-mf-j1C"/>
+                            <constraint firstItem="0B7-Ce-0Of" firstAttribute="leading" secondItem="Beu-s5-JAh" secondAttribute="leading" id="iON-lK-ZuA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Beu-s5-JAh" secondAttribute="bottom" constant="114" id="mCQ-0Y-0lg"/>
+                            <constraint firstItem="7On-vx-ris" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mPj-NG-htc"/>
+                            <constraint firstItem="xLw-be-eOD" firstAttribute="leading" secondItem="0B7-Ce-0Of" secondAttribute="leading" id="wG3-PG-uXN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="p5K-Oa-imT"/>
@@ -118,6 +154,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="bll-8g-f5b"/>
                     </view>
+                    <connections>
+                        <segue destination="iEf-wf-B7J" kind="presentation" identifier="loginToHomeSegue" modalPresentationStyle="fullScreen" id="Wps-gq-Nmq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2U-UR-wcQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,6 +181,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tortoise.fill" catalog="system" width="128" height="66"/>
+        <image name="pencil.and.outline" catalog="system" width="128" height="119"/>
     </resources>
 </document>

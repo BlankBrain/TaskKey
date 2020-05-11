@@ -19,6 +19,8 @@
 		739A88932469E5AF00FEBDEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88922469E5AF00FEBDEA /* LoginViewController.swift */; };
 		739A88952469E5C500FEBDEA /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88942469E5C500FEBDEA /* ResetPasswordViewController.swift */; };
 		739A88982469E62600FEBDEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88972469E62600FEBDEA /* HomeViewController.swift */; };
+		739A889A2469E8F400FEBDEA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A88992469E8F400FEBDEA /* RoundButton.swift */; };
+		739A889C2469EA4700FEBDEA /* RoundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A889B2469EA4700FEBDEA /* RoundLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		739A88922469E5AF00FEBDEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		739A88942469E5C500FEBDEA /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		739A88972469E62600FEBDEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		739A88992469E8F400FEBDEA /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		739A889B2469EA4700FEBDEA /* RoundLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundLabel.swift; sourceTree = "<group>"; };
 		E48859F5F8E997220FC6DFF5 /* Pods-TaskKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskKey.debug.xcconfig"; path = "Target Support Files/Pods-TaskKey/Pods-TaskKey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,8 @@
 		739A888C2469E40C00FEBDEA /* Custom UI class */ = {
 			isa = PBXGroup;
 			children = (
+				739A88992469E8F400FEBDEA /* RoundButton.swift */,
+				739A889B2469EA4700FEBDEA /* RoundLabel.swift */,
 			);
 			name = "Custom UI class";
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739A889A2469E8F400FEBDEA /* RoundButton.swift in Sources */,
+				739A889C2469EA4700FEBDEA /* RoundLabel.swift in Sources */,
 				739A888F2469E45900FEBDEA /* FirstViewController.swift in Sources */,
 				739A88752469D3C800FEBDEA /* AppDelegate.swift in Sources */,
 				739A88912469E5A300FEBDEA /* SignUpViewController.swift in Sources */,
